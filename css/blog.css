@@ -1,3 +1,6 @@
+/* page header styles */
+@import url("responsiveheader.css");
+
 .container{
     display: grid;
     margin: 150px auto;
@@ -32,6 +35,11 @@
 .item-main{
     grid-area: main;
 }
+.item-sub-header h1{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: #FC4136;
+}
 .f-container{
     display: flex;
     flex-flow: column wrap;
@@ -46,7 +54,7 @@
     width:50px;
     text-align: center;
     display: inline-block;
-    padding-top: 15px;
+    padding-top: 13px;
     border-radius: 50%;    
     background-color: #013D86;
     color: aliceblue;
@@ -60,6 +68,19 @@
 .f-item:last-child{
     border-bottom: none;
 }
+.card-body{
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+.title{
+    color: orangered;
+    font-size: 1.5em;
+}
+.title+div{
+    font-size: 1.2em;
+    color: rgb(155, 148, 147);
+}
+
 textarea{
     resize: vertical;
     width: 90%;
