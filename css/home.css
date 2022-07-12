@@ -9,7 +9,7 @@
 
 /*mobile view*/
 @media only screen and (max-width: 750px) {
-    .container{
+    .container{ 
         display: grid;
         margin: 150px auto;
         width: 90%;
